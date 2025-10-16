@@ -1,17 +1,19 @@
-;;; alabaster-theme.el -- Alabaster theme for Emacs.
+;;; alabaster-theme.el --- Alabaster theme -*- lexical-binding: t -*-
 
 ;; Author: Chris Etheridge (theme originally by Nikita Tonsky)
-;; URL: https://github.com/chris-etheridge/alabaster-emacs
-;; Package-Version: 20160525.0001
-;; Version: 1.0
+;; Maintainer: David Edmondson <dme@dme.org>
+;; URL: https://github.com/dme/alabaster-emacs
+;; Package-Version: 20251016.1
 
 ;;; Commentary:
 ;;
 ;; Alabaster is a theme originally created by Nikita Tonsky for Light Table.
 ;; Source: <https://github.com/tonsky/alabaster-lighttable-skin>
 
+;;; Code:
+
 (deftheme alabaster
-  "Alabster skin.")
+  "Alabaster theme.")
 
 (let ((selection-color (if (featurep 'ns) "ns_selection_color" "#C9D0D9"))
       (highlight-color "#EEE00A")
@@ -110,4 +112,4 @@
 
 (provide-theme 'alabaster)
 
-;;; espresso-theme.el ends here
+;;; alabaster-theme.el ends here
